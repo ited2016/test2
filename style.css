@@ -1,0 +1,29 @@
+body{
+    height:100vh;
+    background-image: url("bg-snow.png");
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.glass{
+    width:700px;
+    height: 400px;
+    border:1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0),rgba(255,255,255,0.5));
+    box-shadow:10px 10px 30px rgba(0,0,0,0.5);
+    transiton:all 0.3s ease-in-out;
+
+}
+
+.glass:hover{
+    transform: scale(1.05);
+    backdrop-filter: blur(0.1px);
+    background: radial-gradient(at 50% 0%,rgba(0,0,0,0),rgba(255,255,255,0.1));
+    box-shadow:10px 10px 40px rgba(0,0,0,0.7);
+}
