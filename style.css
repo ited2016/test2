@@ -39,7 +39,8 @@ body{
 }
 
 .move{
-  width:204px;
-  height: 83px;
-  background: url('santa.png') center center / 100% no-repeat; 
-  animation: santa 5s linear infinite both;}
+    width:204px;
+    height: 83px;
+    margin-top: 30%;
+    background: url('santa.png') center center / 100% no-repeat; 
+    animation: santa 5s linear infinite both;}
