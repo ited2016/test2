@@ -44,3 +44,14 @@ body{
     margin-top: 30%;
     background: url('santa.png') center center / 100% no-repeat; 
     animation: santa 5s linear infinite both;}
+
+  #lastsanta{
+      position: absolute;
+      width:250px;
+      height: 350px;
+      top:50%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      background: url('OH1I1B0.jpg') center center /cover no-repeat;
+      display: none;
+  }  
