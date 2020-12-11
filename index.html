@@ -15,13 +15,17 @@
 </body>
 
 <script>
-function(){
-  const x = document.getElementById("lastsanta");
-  x = setTimeout(function show(){
-      document.getElementById("lastsanta").display.block,5000
-  });
-
-}
+const x = document.getElementById("lastsanta");
+  setTimeout( function showHide(){
+        if(document.getElementById("lastsanta").style.display =='none'){
+            document.getElementById("lastsanta").style.display ='block';
+        }
+        else{
+            document.getElementById("lastsanta").style.display ='none';
+        }
+  },5000
+  );
+  
 
 </script>
 </html>
