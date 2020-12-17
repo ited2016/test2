@@ -59,6 +59,6 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    background: url('OH1I1B0.jpg') center center /cover no-repeat;
+    background: url('OH1I1B0.png') center center /cover no-repeat;
     animation: zzansanta 5s linear infinite both;
 }  
